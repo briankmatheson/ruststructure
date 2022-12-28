@@ -1,12 +1,6 @@
-#[derive(Debug)]
-struct A {
-    a: i32,
-}
+mod rectangle;
 
-#[derive(Debug)]
-struct B {
-    b: i32,
-}
+use crate::rectangle::{A, B};
 
 fn main() {
     let a = A { a: 42, };
